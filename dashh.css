@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-box{
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    color: white;
+}
+
+.top-nav{
+    width: 100%;
+    height: 7%;
+    background-color:  rgba(0, 119, 255, 0.913);
+    padding: 8px 30px;
+    color: white;
+}
+
+.mid-content{
+    width: 100%;
+    height: 93%;
+    display: flex;
+    /* background-color: brown; */
+}
+
+.left-nav{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: rgba(0, 119, 255, 0.6);
+    /* padding: 4vw 0vw; */
+}
+
+.first1 {
+    display: flex;
+    gap: 1.2vw;
+    font-size: 11px;
+    width: 100%;
+    padding:1vw;
+}
+.first1 .icon {
+    font-size: 30px;
+    border: 2px solid rgb(252, 249, 249);
+    border-radius: 80px;
+    padding: 7px 9px 9px 9px;
+}
+
+.online {
+    display: flex;
+    margin-top: 8px;
+    gap: 7px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.online-detect {
+    height: 0.8vw;
+    width: 0.8vw;
+    border-radius: 50%;
+    
+    margin-top: 4px;
+    display: none;
+}
+.second {
+    width: 100%;
+    background-color: rgba(20, 79, 188, 0.461);
+    padding: 1vw;
+    font-weight: 800;
+}
+.second  a{
+   text-decoration: none;
+   color: #fff;
+}
+
+.third {
+    display: flex;
+    width: 100%;
+    padding: 1vw 2vw;
+    gap: 1vw;
+    font-size: 17px;
+}
+.third a {
+    text-decoration: none;
+    color: #fff;
+}
+.fourth {
+    display: flex;
+    width: 100%;
+    padding: 1vw 2vw;
+    gap: 1vw;
+    font-size: 17px;
+    align-items: center;
+}
+.fourth a {
+    text-decoration: none;
+    color: #fff;
+}
+.manage {
+    width: 100%;
+    background-color: rgba(20, 79, 188, 0.461);
+    padding: 1vw;
+    font-weight: 800;
+}
+.manage a {
+    text-decoration: none;
+    color: #fff;
+}
+.fifth a{
+   text-decoration: none;
+   color: #fff;
+}
+
+.voters {
+    display: flex;
+    padding: 1vw 2vw;
+    gap: 1vw;
+    font-size: 17px;
+    align-items: center;
+}
+.positions {
+    padding: 1vw 2vw;
+    gap: 1vw;
+    display: flex;
+    font-size: 17px;
+}
+.candidates {
+    padding: 1vw 2vw;
+    gap: 1vw;
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+}
+.six {
+    width: 100%;
+    background-color: rgba(20, 79, 188, 0.461);
+    padding: 1vw;
+    font-weight: 800;
+}
+.title {
+    display: flex;
+    gap: 1vw;
+    padding: 1vw 2vw;
+    font-size: 17px;
+    align-items: center;
+}
+.title a {
+    text-decoration: none;
+    color: #fff;
+}
+.exit {
+    width: 100%;
+    background-color: rgba(20, 79, 188, 0.461);
+    padding: 1vw;
+    font-weight: 800; 
+}
+.logout {
+    display: flex;
+    gap: 1vw;
+    padding: 1vw 2vw;
+    font-size: 17px;
+    align-items: center;
+}
+.logout a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* right section */
+
+.right-sec{
+    width: 80%;
+    height: 100%;
+    color: black;
+    padding: 10px 10px;
+    /* background-color: rgb(165, 101, 22); */
+}
+
+.right-sec h1 {
+    margin: 20px ;
+}
+
+
+.cards {
+   /* display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   align-items: center;
+   justify-content: center;
+   color: black; */
+
+   /* background-color: blue    ; */
+   width: 100%;
+   display: flex;
+}
+
+.title_right{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.card{
+    width: 260px;
+    height: 150px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 5px ;
+    margin: 10px;
+}
+
+.main-card-body{
+    width: 100%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+
+.card-footer{
+    width: 100%;
+    height: 20%;
+    /* background-color: antiquewhite; */
+    border: none;
+}
+
+.left-card-side{
+    width: 60%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    padding: 14px;
+}
+
+.left-card-side h2{
+    margin-bottom: 20px;
+}
+
+.left-card-side p{
+    font-weight: 600;
+    /* font-size: 20px; */
+}
+
+.right-card-side{
+    width: 40%;
+    height: 100%;
+}
+
+.right-card-side img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-footer button{
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+    border: none;
+}
+
+.card-footer button i{
+    color:white;
+}
